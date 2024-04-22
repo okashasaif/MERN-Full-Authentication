@@ -168,16 +168,16 @@ export async function getUser(req,res){
 }
 
 
-/** PUT: http://localhost:8080/api/updateuser 
- * @param: {
-  "header" : "<token>"
-}
-body: {
-    firstName: '',
-    address : '',
-    profile : ''
-}
-*/
+// /** PUT: http://localhost:8080/api/updateuser 
+//  * @param: {
+//   "header" : "<token>"
+// }
+// body: {
+//     firstName: '',
+//     address : '',
+//     profile : ''
+// }
+// */
 export async function updateUser(req,res){
     try {
         
